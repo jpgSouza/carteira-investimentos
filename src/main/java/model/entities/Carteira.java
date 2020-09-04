@@ -18,7 +18,7 @@ public class Carteira {
 	private String corretora;
 	private double valorInvestido;
 	
-	List<Investimento> investimentos;
+	private List<Investimento> investimentos;
 	
 	public Carteira(String corretora) {
 		this.corretora = corretora;
@@ -50,50 +50,8 @@ public class Carteira {
 		
 	}
 	
-	public void gerarJson() {
-		if(investimentos != null) {
-			Gson gson = new GsonBuilder().setPrettyPrinting().create();
-			String json = gson.toJson(investimentos);
-			
-			FileWriter fileWriter;
-			try {
-				fileWriter = new FileWriter("investimentos.json", true);
-				fileWriter.write(json);
-				fileWriter.close();
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-		}
-		
-	}
-	
-	public void gerarCsv() {
-		File file = new File("investimentos.csv");
-		FileWriter fileWriter;
-		try {
-			fileWriter = new FileWriter(file, true);
-			CSVWriter csvWriter = new CSVWriter(fileWriter);
-			String[] header = {"Nome", "Data de Compra", "Data de Vencimento", "Preço", "Quantidade", "Rendimento"};
-			csvWriter.writeNext(header);
-			for (Investimento investimento : investimentos) {
-				if(investimento instanceof RendaFixa) {
-					RendaFixa rendaFixaAux = (RendaFixa) investimento;
-					String[] data = {
-							rendaFixaAux.getNome(),
-							rendaFixaAux.getDataCompra().toString(),
-							rendaFixaAux.getDataVencimento(),
-							String.valueOf(rendaFixaAux.getPreco()),
-							String.valueOf(rendaFixaAux.getQuantidade()),
-							String.valueOf(rendaFixaAux.getRendimento())
-					};
-					csvWriter.writeNext(data);
-				}
-			}
-			csvWriter.close();
-		}catch(IOException e) {
-			e.printStackTrace();
-		}
-		
+	public List<Investimento> getInvestimentos() {
+		return investimentos;
 	}
 	
 }
