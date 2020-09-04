@@ -42,5 +42,6 @@ A aplicação contém algumas funcionalidades, como:
    ```sh
    java -jar maven-project.jar
    ```
-
+   ## License
+   ![Bower](https://img.shields.io/bower/l/mi?color=blue)
    
