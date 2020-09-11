@@ -15,10 +15,12 @@ A aplicação contém algumas funcionalidades, como:
  As seguintes bibliotecas estão sendo utilizadas na construção do projeto:
  - [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson)
  - [CSV](https://mvnrepository.com/artifact/com.opencsv/opencsv)
+ - [JUnit](https://mvnrepository.com/artifact/junit/junit/4.12)
  
  ## Ferramentas
  As seguintes ferraments estão sendo utilizadas na construção do projeto:
   - [Maven](https://maven.apache.org)
+  - [JUnit](https://junit.org/junit5/)
   
   ## Como usar?
   
