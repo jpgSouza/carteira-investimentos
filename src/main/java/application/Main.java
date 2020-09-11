@@ -45,11 +45,12 @@ public class Main {
 				if(carteira != null) {
 					Arquivo.gerarJson(carteira.getInvestimentos());				
 				}
-				
+				break;
 			case 5:
 				if(carteira != null) {
 					Arquivo.gerarCsv(carteira.getInvestimentos());
 				}
+				break;
 			case 0:
 				break;
 			}
