@@ -57,4 +57,13 @@ public class Arquivo {
 		}
 	}
 
+	public static File getFile() {
+		return file;
+	}
+
+	public static FileWriter getFileWriter() {
+		return fileWriter;
+	}
+
+
 }
