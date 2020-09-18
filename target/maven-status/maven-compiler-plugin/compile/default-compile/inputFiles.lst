@@ -4,7 +4,9 @@ C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\Busc
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\InvestimentoFactory.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\Investimento.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\CarteiraFactory.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\RendaFixaRepository.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\RendaFixa.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\application\Main.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\validators\RendaFixaService.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\Arquivo.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\BuscaInvestimentoService.java
