@@ -1,8 +1,8 @@
-application\Main.class
 model\entities\Carteira.class
 model\entities\RendaVariavel.class
 model\interfaces\InvestimentoFactory.class
 model\entities\Investimento.class
 model\interfaces\CarteiraFactory.class
 model\entities\RendaFixa.class
+application\Main.class
 model\arquivos\Arquivo.class
