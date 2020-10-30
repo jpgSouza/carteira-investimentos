@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jpgSouza/carteira-investimentos.svg?branch=master)](https://travis-ci.com/jpgSouza/carteira-investimentos)
+
 # Controle de investimentos
 Aplicação sendo desenvolvida no laboratório de Engenharia de Software - C214.
 
