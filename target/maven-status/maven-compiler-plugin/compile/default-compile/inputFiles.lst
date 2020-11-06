@@ -4,12 +4,16 @@ C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\In
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\RendaFixaRepository.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\CsvStrategy.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\application\Main.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\view\MenuView.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\view\RendaFixaView.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\BuscaInvestimento.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\Investimento.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\CarteiraFactory.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\RendaFixa.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\ArquivoStrategy.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\JsonStrategy.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\controller\ArquivoController.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\entities\validators\RendaFixaService.java
+C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\controller\CarteiraController.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\arquivos\Arquivo.java
 C:\Users\joao_\eclipse-workspace\maven-project\src\main\java\model\interfaces\BuscaInvestimentoService.java

@@ -1,36 +1,18 @@
 [
   {
-    "dataVencimento": "20/10/2025",
+    "dataVencimento": "10/10/2025",
     "rendimento": 1.5,
-    "nome": "Tesouro Selic 2025",
-    "dataCompra": "Oct 23, 2020 10:53:30 AM",
-    "preco": 78.65,
-    "quantidade": 1.5
+    "nome": "Tesouro Selic",
+    "dataCompra": "Nov 6, 2020 11:07:55 AM",
+    "preco": 68.75,
+    "quantidade": 2.0
   }
 ][
   {
     "dataVencimento": "20/10/2025",
     "rendimento": 2.75,
     "nome": "Tesouro Selic 2025",
-    "dataCompra": "Oct 23, 2020 11:01:21 AM",
-    "preco": 78.65,
-    "quantidade": 50.0
-  }
-][
-  {
-    "dataVencimento": "20/10/2025",
-    "rendimento": 2.75,
-    "nome": "Tesouro Selic 2025",
-    "dataCompra": "Oct 23, 2020 11:01:40 AM",
-    "preco": 78.65,
-    "quantidade": 50.0
-  }
-][
-  {
-    "dataVencimento": "20/10/2025",
-    "rendimento": 2.75,
-    "nome": "Tesouro Selic 2025",
-    "dataCompra": "Oct 23, 2020 11:02:38 AM",
+    "dataCompra": "Nov 6, 2020 11:15:07 AM",
     "preco": 78.65,
     "quantidade": 50.0
   }

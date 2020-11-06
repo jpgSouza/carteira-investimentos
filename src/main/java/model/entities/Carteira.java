@@ -2,9 +2,6 @@ package model.entities;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
-import model.interfaces.InvestimentoFactory;
 
 public class Carteira {
 	
@@ -32,15 +29,6 @@ public class Carteira {
 
 	public void setValorInvestido(double valorInvestido) {
 		this.valorInvestido = valorInvestido;
-	}
-	
-	public void adicionarInvestimento(Investimento investimento, Scanner sc, Carteira c) {
-		if(investimento instanceof RendaFixa){
-			investimento = InvestimentoFactory.createRendaFixa(sc, c);
-			valorInvestido += investimento.getQuantidade() * investimento.getPreco();
-			investimentos.add(investimento);
-		}
-		
 	}
 	
 	public List<Investimento> getInvestimentos() {
