@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/jpgSouza/carteira-investimentos.svg?branch=master)](https://travis-ci.com/jpgSouza/carteira-investimentos)
+![Java CI with Maven](https://github.com/jpgSouza/carteira-investimentos/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 
 # Controle de investimentos
 Aplicação sendo desenvolvida no laboratório de Engenharia de Software - C214.
